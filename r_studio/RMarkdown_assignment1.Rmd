@@ -1,0 +1,26 @@
+---
+title: "RMarkdown first assignment"
+author: "Tarushi"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+# Markdown File for Assignment 1
+
+### introductory comments:
+This R markdown file is created in R Studio for my first programming assignment.
+This gives **Bold** while this gives *italics*
+> used for special quotes o remember
+'''{r quote}
+print("programming is fun")
+
+
+# Code from part 2 of the assignment:
+
+print(1:10)
+
+
+for (a in 1) {
+  print(1:10)
+}
+
